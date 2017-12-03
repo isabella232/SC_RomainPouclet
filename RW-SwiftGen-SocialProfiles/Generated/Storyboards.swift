@@ -3,7 +3,6 @@
 // swiftlint:disable sorted_imports
 import Foundation
 import UIKit
-import RW_SwiftGen_SocialProfiles
 
 // swiftlint:disable superfluous_disable_command
 // swiftlint:disable file_length

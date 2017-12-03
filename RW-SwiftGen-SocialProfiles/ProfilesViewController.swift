@@ -2,18 +2,55 @@ import UIKit
 
 class ProfilesViewController: UITableViewController {
     static let CellIdentifier = "ProfileCell"
+
     let profiles: [Profile] = [
         Profile(
-            name: "GitHub",
-            content: "I love GitHub because it's the best way to share code I wrote.",
-            url: URL(string: "https://github.com/palleas")!,
-            icon: UIImage()
-        )
+            name: "Instagram",
+            content: "I love Instagram because...",
+            url: URL(string: "https://instagram.com/palleas")!,
+            icon: Asset.socialNetworkInstagram.image
+        ),
+
+        Profile(
+            name: "Pinterest",
+            content: "I love Pinterest because...",
+            url: URL(string: "https://pinterest.com/palleas")!,
+            icon: Asset.socialNetworkPinterest.image
+        ),
+        Profile(
+            name: "Snapchat",
+            content: "I love Snapchat because...",
+            url: URL(string: "https://snapchat.com/palleas")!,
+            icon: Asset.socialNetworkSnapchat.image
+        ),
+
+        Profile(
+            name: "Reddit",
+            content: "I love Reddit because...",
+            url: URL(string: "https://reddit.com/palleas")!,
+            icon: Asset.socialNetworkReddit.image
+        ),
+
+        Profile(
+            name: "Twitter",
+            content: "I love Twitter because...",
+            url: URL(string: "https://Twitter.com/palleas")!,
+            icon: Asset.socialNetworkTwitter.image
+        ),
+
+        Profile(
+            name: "Youtube",
+            content: "I love Pinterest because...",
+            url: URL(string: "https://pinterest.com/palleas")!,
+            icon: Asset.socialNetworkYoutube.image
+        ),
+
     ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Social Networks"
         tableView.rowHeight = 60
     }
 

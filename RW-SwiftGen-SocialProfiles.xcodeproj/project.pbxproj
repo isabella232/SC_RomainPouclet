@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7467B187DCF57E52B5CC0CAB /* Pods_RW_SwiftGen_SocialProfiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB123B34C4C0DC76C39DB42 /* Pods_RW_SwiftGen_SocialProfiles.framework */; };
 		7A27ECCE1FD4BD190061E3AA /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27ECCD1FD4BD190061E3AA /* Storyboards.swift */; };
+		7A27ECD11FD4C4370061E3AA /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27ECD01FD4C4370061E3AA /* Assets.swift */; };
 		7A4E810E1FD4AFEA00C815BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */; };
 		7A4E81101FD4AFEA00C815BD /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E810F1FD4AFEA00C815BD /* ProfilesViewController.swift */; };
 		7A4E81131FD4AFEB00C815BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E81111FD4AFEB00C815BD /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		124EC8EA1EFB80460279BECE /* Pods-RW-SwiftGen-SocialProfiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; sourceTree = "<group>"; };
 		7A27ECCD1FD4BD190061E3AA /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		7A27ECD01FD4C4370061E3AA /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		7A4E810A1FD4AFEA00C815BD /* RW-SwiftGen-SocialProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RW-SwiftGen-SocialProfiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A4E810F1FD4AFEA00C815BD /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		7A27ECCC1FD4BD190061E3AA /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				7A27ECD01FD4C4370061E3AA /* Assets.swift */,
 				7A27ECCD1FD4BD190061E3AA /* Storyboards.swift */,
 			);
 			path = Generated;
@@ -254,6 +257,7 @@
 			files = (
 				7A4E81101FD4AFEA00C815BD /* ProfilesViewController.swift in Sources */,
 				7A4E81261FD4B69B00C815BD /* SocialNetworkCell.swift in Sources */,
+				7A27ECD11FD4C4370061E3AA /* Assets.swift in Sources */,
 				7A4E81201FD4B34000C815BD /* Profile.swift in Sources */,
 				7A4E81221FD4B4A500C815BD /* ProfileViewController.swift in Sources */,
 				7A4E81241FD4B60600C815BD /* AboutViewController.swift in Sources */,
