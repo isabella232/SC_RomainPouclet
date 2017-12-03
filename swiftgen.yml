@@ -2,3 +2,7 @@ storyboards:
   templateName: swift4
   output: RW-SwiftGen-SocialProfiles/Generated/Storyboards.swift
   paths: RW-SwiftGen-SocialProfiles/Base.lproj/Main.storyboard
+xcassets:
+  templateName: swift4
+  output: RW-SwiftGen-SocialProfiles/Generated/Assets.swift
+  paths: RW-SwiftGen-SocialProfiles/Assets.xcassets
