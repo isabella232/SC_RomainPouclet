@@ -1,0 +1,4 @@
+storyboards:
+  templateName: swift4
+  output: RW-SwiftGen-SocialProfiles/Generated/Storyboards.swift
+  paths: RW-SwiftGen-SocialProfiles/Base.lproj/Main.storyboard
