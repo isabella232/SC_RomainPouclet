@@ -3,10 +3,9 @@ import UIKit
 
 struct Profile {
 
-    let name: String
-    let content: String
-    let url: URL
-    let icon: UIImage
-    let tint: UIColor
-    
+  let name: String
+  let content: String
+  let url: URL
+  let icon: UIImage
+  let tint: UIColor
 }
