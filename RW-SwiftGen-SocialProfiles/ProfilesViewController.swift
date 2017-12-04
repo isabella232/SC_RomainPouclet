@@ -56,7 +56,7 @@ class ProfilesViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    title = "Social Networks"
+    title = L10n.applicationTitle
     tableView.rowHeight = 60
   }
 
