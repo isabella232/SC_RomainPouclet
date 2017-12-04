@@ -4,6 +4,9 @@ class ProfilesViewController: UITableViewController {
   static let CellIdentifier = "ProfileCell"
   private var selectedProfile: Profile?
 
+  /// Defines the different profiles
+  /// Using swiftgen's generated code for
+  /// Icon and tint color
   let profiles: [Profile] = [
     Profile(
       name: "Instagram",

@@ -68,21 +68,6 @@
             </objects>
             <point key="canvasLocation" x="-346" y="138"/>
         </scene>
-        <!--About View Controller-->
-        <scene sceneID="kcf-TI-jPs">
-            <objects>
-                <viewController storyboardIdentifier="About" id="mnB-xU-ZC9" customClass="AboutViewController" customModule="RW_SwiftGen_SocialProfiles" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JMW-Z0-N9e">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Oiy-zG-PIX"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jRf-jd-28H" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="401" y="454"/>
-        </scene>
         <!--Profile View Controller-->
         <scene sceneID="YVA-EY-6LD">
             <objects>

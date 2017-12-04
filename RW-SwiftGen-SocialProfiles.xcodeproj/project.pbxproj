@@ -30,7 +30,6 @@
 		7A4E81151FD4AFEB00C815BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E81141FD4AFEB00C815BD /* Assets.xcassets */; };
 		7A4E81201FD4B34000C815BD /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E811F1FD4B34000C815BD /* Profile.swift */; };
 		7A4E81221FD4B4A500C815BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */; };
-		7A4E81241FD4B60600C815BD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81231FD4B60600C815BD /* AboutViewController.swift */; };
 		7A4E81261FD4B69B00C815BD /* SocialNetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		7A4E81191FD4AFEB00C815BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4E811F1FD4B34000C815BD /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		7A4E81231FD4B60600C815BD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCell.swift; sourceTree = "<group>"; };
 		BEB123B34C4C0DC76C39DB42 /* Pods_RW_SwiftGen_SocialProfiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RW_SwiftGen_SocialProfiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB23E9DD41CF989ECF065DCC /* Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 				7A4E81191FD4AFEB00C815BD /* Info.plist */,
 				7A4E811F1FD4B34000C815BD /* Profile.swift */,
 				7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */,
-				7A4E81231FD4B60600C815BD /* AboutViewController.swift */,
 				7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */,
 			);
 			path = "RW-SwiftGen-SocialProfiles";
@@ -326,7 +323,6 @@
 				7A27ECD11FD4C4370061E3AA /* Assets.swift in Sources */,
 				7A4E81201FD4B34000C815BD /* Profile.swift in Sources */,
 				7A4E81221FD4B4A500C815BD /* ProfileViewController.swift in Sources */,
-				7A4E81241FD4B60600C815BD /* AboutViewController.swift in Sources */,
 				7A27ECED1FD4F04A0061E3AA /* Fonts.swift in Sources */,
 				7A4E810E1FD4AFEA00C815BD /* AppDelegate.swift in Sources */,
 				7A27ECCE1FD4BD190061E3AA /* Storyboards.swift in Sources */,
