@@ -42,3 +42,4 @@ xcuserdata/
 /*.gcno
 
 # End of https://www.gitignore.io/api/xcode,cocoapods
+RW-SwiftGen-SocialProfiles/Generated/*.swift
