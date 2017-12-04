@@ -2,6 +2,7 @@ import UIKit
 
 class ProfilesViewController: UITableViewController {
     static let CellIdentifier = "ProfileCell"
+    private var selectedProfile: Profile?
 
     let profiles: [Profile] = [
         Profile(
@@ -68,6 +69,20 @@ class ProfilesViewController: UITableViewController {
 
         return cell
     }
-    
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard indexPath.row < profiles.count else { fatalError("Invalid index path \(indexPath)") }
+        self.selectedProfile = profiles[indexPath.row]
+
+        self.perform(segue: StoryboardSegue.Main.profileDetail)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+
+        if let detail = segue.destination as? ProfileViewController {
+            detail.profile = selectedProfile
+        }
+    }
 }
 
