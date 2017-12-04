@@ -9,41 +9,47 @@ class ProfilesViewController: UITableViewController {
             name: "Instagram",
             content: "I love Instagram because...",
             url: URL(string: "https://instagram.com/palleas")!,
-            icon: Asset.socialNetworkInstagram.image
+            icon: Asset.socialNetworkInstagram.image,
+            tint: Asset.instagramColor.color
         ),
 
         Profile(
             name: "Pinterest",
             content: "I love Pinterest because...",
             url: URL(string: "https://pinterest.com/palleas")!,
-            icon: Asset.socialNetworkPinterest.image
+            icon: Asset.socialNetworkPinterest.image,
+            tint: Asset.pinterestColor.color
         ),
         Profile(
             name: "Snapchat",
             content: "I love Snapchat because...",
             url: URL(string: "https://snapchat.com/palleas")!,
-            icon: Asset.socialNetworkSnapchat.image
+            icon: Asset.socialNetworkSnapchat.image,
+            tint: Asset.snapchatColor.color
         ),
 
         Profile(
             name: "Reddit",
             content: "I love Reddit because...",
             url: URL(string: "https://reddit.com/palleas")!,
-            icon: Asset.socialNetworkReddit.image
+            icon: Asset.socialNetworkReddit.image,
+            tint: Asset.redditColor.color
         ),
 
         Profile(
             name: "Twitter",
             content: "I love Twitter because...",
             url: URL(string: "https://Twitter.com/palleas")!,
-            icon: Asset.socialNetworkTwitter.image
+            icon: Asset.socialNetworkTwitter.image,
+            tint: Asset.twitterColor.color
         ),
 
         Profile(
             name: "Youtube",
             content: "I love Pinterest because...",
             url: URL(string: "https://pinterest.com/palleas")!,
-            icon: Asset.socialNetworkYoutube.image
+            icon: Asset.socialNetworkYoutube.image,
+            tint: Asset.youtubeColor.color
         ),
 
     ]
@@ -61,11 +67,9 @@ class ProfilesViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard indexPath.row < profiles.count else { fatalError("Invalid index path \(indexPath)") }
-        let profile = profiles[indexPath.row]
 
         let cell = tableView.dequeueReusableCell(withIdentifier: ProfilesViewController.CellIdentifier, for: indexPath) as! SocialNetworkCell
-        cell.iconView.image = profile.icon
-        cell.titleLabel.text = profile.name
+        cell.use(profiles[indexPath.row])
 
         return cell
     }

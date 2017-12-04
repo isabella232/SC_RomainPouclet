@@ -1,0 +1,4 @@
+"profile_confirm_title" = "Open Profile?";
+"profile_confirm_message" = "Are you sure you want to visit %@? This will open a browser.";
+"profile_confirm_ok" = "Let's Go!";
+"profile_confirm_cancel" = "Cancel";

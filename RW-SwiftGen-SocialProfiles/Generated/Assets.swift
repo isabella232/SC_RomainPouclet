@@ -44,15 +44,27 @@ struct ColorAsset {
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 enum Asset {
+  static let instagramColor = ColorAsset(name: "instagramColor")
+  static let pinterestColor = ColorAsset(name: "pinterestColor")
+  static let redditColor = ColorAsset(name: "redditColor")
+  static let snapchatColor = ColorAsset(name: "snapchatColor")
   static let socialNetworkInstagram = ImageAsset(name: "socialNetworkInstagram")
   static let socialNetworkPinterest = ImageAsset(name: "socialNetworkPinterest")
   static let socialNetworkReddit = ImageAsset(name: "socialNetworkReddit")
   static let socialNetworkSnapchat = ImageAsset(name: "socialNetworkSnapchat")
   static let socialNetworkTwitter = ImageAsset(name: "socialNetworkTwitter")
   static let socialNetworkYoutube = ImageAsset(name: "socialNetworkYoutube")
+  static let twitterColor = ColorAsset(name: "twitterColor")
+  static let youtubeColor = ColorAsset(name: "youtubeColor")
 
   // swiftlint:disable trailing_comma
   static let allColors: [ColorAsset] = [
+    instagramColor,
+    pinterestColor,
+    redditColor,
+    snapchatColor,
+    twitterColor,
+    youtubeColor,
   ]
   static let allImages: [ImageAsset] = [
     socialNetworkInstagram,

@@ -92,19 +92,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-AZ-blb">
-                                <rect key="frame" x="0.0" y="20" width="0.0" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dgH-El-hOb">
-                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="215.5"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dgH-El-hOb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I like this social network because of reasons." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h19-mv-czj">
-                                        <rect key="frame" x="0.0" y="215.5" width="0.0" height="216"/>
+                                        <rect key="frame" x="0.0" y="222.5" width="375" height="222"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dg7-Tb-cN1">
-                                        <rect key="frame" x="0.0" y="431.5" width="0.0" height="215.5"/>
+                                        <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
                                         <state key="normal" title="Visit this profile"/>
                                         <connections>
                                             <action selector="promptToVisit:" destination="5V9-ol-kMi" eventType="touchUpInside" id="mUs-QQ-60x"/>
@@ -117,7 +117,7 @@
                         <constraints>
                             <constraint firstItem="XdI-kS-7Ta" firstAttribute="leading" secondItem="8Rt-AZ-blb" secondAttribute="leading" id="BpB-N6-WoQ"/>
                             <constraint firstItem="XdI-kS-7Ta" firstAttribute="trailing" secondItem="8Rt-AZ-blb" secondAttribute="trailing" id="S0r-Dz-Eoo"/>
-                            <constraint firstItem="XdI-kS-7Ta" firstAttribute="top" secondItem="8Rt-AZ-blb" secondAttribute="top" id="bXf-tf-Jaj"/>
+                            <constraint firstItem="XdI-kS-7Ta" firstAttribute="top" secondItem="8Rt-AZ-blb" secondAttribute="top" constant="20" id="bXf-tf-Jaj"/>
                             <constraint firstItem="XdI-kS-7Ta" firstAttribute="bottom" secondItem="8Rt-AZ-blb" secondAttribute="bottom" id="wq8-wD-yfj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XdI-kS-7Ta"/>

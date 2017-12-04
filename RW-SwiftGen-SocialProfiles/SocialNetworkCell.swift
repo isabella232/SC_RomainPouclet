@@ -4,5 +4,24 @@ final class SocialNetworkCell: UITableViewCell {
 
     @IBOutlet weak var iconView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    
+
+    private let tinyBorder = CALayer()
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+
+        contentView.layer.addSublayer(tinyBorder)
+    }
+
+    func use(_ profile: Profile) {
+        iconView.image = profile.icon
+        titleLabel.text = profile.name
+        tinyBorder.backgroundColor = profile.tint.cgColor
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+        tinyBorder.frame = CGRect(origin: .zero, size: CGSize(width: 5, height: contentView.frame.height))
+    }
 }

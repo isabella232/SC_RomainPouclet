@@ -6,3 +6,7 @@ xcassets:
   templateName: swift4
   output: RW-SwiftGen-SocialProfiles/Generated/Assets.swift
   paths: RW-SwiftGen-SocialProfiles/Assets.xcassets
+strings:
+  templateName: structured-swift4
+  output: RW-SwiftGen-SocialProfiles/Generated/I18N.swift
+  paths: RW-SwiftGen-SocialProfiles/Localizable.strings

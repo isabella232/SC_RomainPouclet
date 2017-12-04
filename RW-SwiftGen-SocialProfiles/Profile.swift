@@ -7,5 +7,6 @@ struct Profile {
     let content: String
     let url: URL
     let icon: UIImage
+    let tint: UIColor
     
 }
