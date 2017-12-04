@@ -46,7 +46,7 @@ class ProfilesViewController: UITableViewController {
 
         Profile(
             name: "Youtube",
-            content: "I love Pinterest because...",
+            content: "I love Youtube because...",
             url: URL(string: "https://pinterest.com/palleas")!,
             icon: Asset.socialNetworkYoutube.image,
             tint: Asset.youtubeColor.color

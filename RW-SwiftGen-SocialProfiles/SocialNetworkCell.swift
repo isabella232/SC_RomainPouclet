@@ -16,6 +16,7 @@ final class SocialNetworkCell: UITableViewCell {
     func use(_ profile: Profile) {
         iconView.image = profile.icon
         titleLabel.text = profile.name
+        titleLabel.font = FontFamily.Lato.regular.font(size: 14)
         tinyBorder.backgroundColor = profile.tint.cgColor
     }
 

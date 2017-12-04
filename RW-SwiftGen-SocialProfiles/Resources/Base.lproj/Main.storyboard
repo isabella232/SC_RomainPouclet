@@ -125,6 +125,7 @@
                     <connections>
                         <outlet property="contentContainer" destination="h19-mv-czj" id="9Ne-ff-ZpX"/>
                         <outlet property="iconContainer" destination="dgH-El-hOb" id="PEF-Af-5F7"/>
+                        <outlet property="visitButton" destination="Dg7-Tb-cN1" id="2bR-Xd-X62"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0Y-hw-u3T" userLabel="First Responder" sceneMemberID="firstResponder"/>

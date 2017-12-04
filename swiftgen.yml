@@ -1,12 +1,16 @@
 storyboards:
   templateName: swift4
   output: RW-SwiftGen-SocialProfiles/Generated/Storyboards.swift
-  paths: RW-SwiftGen-SocialProfiles/Base.lproj/Main.storyboard
+  paths: RW-SwiftGen-SocialProfiles/Resources/Base.lproj/Main.storyboard
 xcassets:
   templateName: swift4
   output: RW-SwiftGen-SocialProfiles/Generated/Assets.swift
-  paths: RW-SwiftGen-SocialProfiles/Assets.xcassets
+  paths: RW-SwiftGen-SocialProfiles/Resources/Assets.xcassets
 strings:
   templateName: structured-swift4
   output: RW-SwiftGen-SocialProfiles/Generated/I18N.swift
-  paths: RW-SwiftGen-SocialProfiles/Localizable.strings
+  paths: RW-SwiftGen-SocialProfiles/Resources/Localizable.strings
+fonts:
+  templateName: swift4
+  output: RW-SwiftGen-SocialProfiles/Generated/Fonts.swift
+  paths: RW-SwiftGen-SocialProfiles/Resources/Fonts

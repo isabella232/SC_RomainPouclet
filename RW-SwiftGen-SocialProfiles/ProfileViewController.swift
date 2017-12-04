@@ -7,13 +7,29 @@ final class ProfileViewController: UIViewController {
 
     @IBOutlet weak var iconContainer: UIImageView!
     @IBOutlet weak var contentContainer: UILabel!
+    @IBOutlet weak var visitButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = profile?.name
-        iconContainer.image = profile?.icon
-        contentContainer.text = profile?.content
+        guard let profile = profile else {
+            iconContainer.isHidden = true
+            contentContainer.isHidden = true
+            visitButton.isHidden = true
+            return
+        }
+
+        title = profile.name
+        iconContainer.image = profile.icon
+
+
+        let prettyContent = NSMutableAttributedString(string: profile.content, attributes: [.font: FontFamily.Lato.regular.font(size: 14)])
+        let range = (profile.content as NSString).range(of: profile.name)
+        if range.location != NSNotFound {
+            prettyContent.addAttribute(.font, value: FontFamily.Lato.boldItalic.font(size: 14), range: range)
+        }
+
+        contentContainer.attributedText = prettyContent
     }
 
     @IBAction func promptToVisit(_ sender: Any) {
