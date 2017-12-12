@@ -38,7 +38,7 @@ class ProfilesViewController: UITableViewController {
   let profiles: [Profile] = [
     Profile(
       name: "Instagram",
-      content: "I love Instagram because...",
+      content: "Instagram is great because it's a simple social network to share my photos.",
       url: URL(string: "https://instagram.com/palleas")!,
       icon: Asset.socialNetworkInstagram.image,
       tint: Asset.instagramColor.color
@@ -46,14 +46,14 @@ class ProfilesViewController: UITableViewController {
 
     Profile(
       name: "Pinterest",
-      content: "I love Pinterest because...",
+      content: "I love Pinterest because you can always find ideas.",
       url: URL(string: "https://pinterest.com/palleas")!,
       icon: Asset.socialNetworkPinterest.image,
       tint: Asset.pinterestColor.color
     ),
     Profile(
       name: "Snapchat",
-      content: "I love Snapchat because...",
+      content: "I use snapchat sometimes to send funny videos to my friends.",
       url: URL(string: "https://snapchat.com/palleas")!,
       icon: Asset.socialNetworkSnapchat.image,
       tint: Asset.snapchatColor.color
@@ -61,7 +61,7 @@ class ProfilesViewController: UITableViewController {
 
     Profile(
       name: "Reddit",
-      content: "I love Reddit because...",
+      content: "Reddit has a lot of interesting content about every topic imaginable.",
       url: URL(string: "https://reddit.com/palleas")!,
       icon: Asset.socialNetworkReddit.image,
       tint: Asset.redditColor.color
@@ -69,16 +69,16 @@ class ProfilesViewController: UITableViewController {
 
     Profile(
       name: "Twitter",
-      content: "I love Twitter because...",
-      url: URL(string: "https://Twitter.com/palleas")!,
+      content: "I met some of the most inspiring people on Twitter.",
+      url: URL(string: "https://twitter.com/palleas")!,
       icon: Asset.socialNetworkTwitter.image,
       tint: Asset.twitterColor.color
     ),
 
     Profile(
       name: "Youtube",
-      content: "I love Youtube because...",
-      url: URL(string: "https://pinterest.com/palleas")!,
+      content: "Youtube makes it easy to share and discover video content.",
+      url: URL(string: "https://youtube.com/palleas")!,
       icon: Asset.socialNetworkYoutube.image,
       tint: Asset.youtubeColor.color
     ),
