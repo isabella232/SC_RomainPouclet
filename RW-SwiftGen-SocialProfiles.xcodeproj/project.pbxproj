@@ -107,8 +107,7 @@
 		7A27ECEA1FD4EF2E0061E3AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7A27ECEE1FD4F94F0061E3AA /* LaunchScreen.xib */,
-				7A4E81111FD4AFEB00C815BD /* Main.storyboard */,
+				7A4E81191FD4AFEB00C815BD /* Info.plist */,
 				7A4E81141FD4AFEB00C815BD /* Assets.xcassets */,
 				7A27ECD21FD4CEBF0061E3AA /* Localizable.strings */,
 				7A27ECDA1FD4EEDC0061E3AA /* Lato-Black.ttf */,
@@ -154,11 +153,12 @@
 		7A4E810C1FD4AFEA00C815BD /* RW-SwiftGen-SocialProfiles */ = {
 			isa = PBXGroup;
 			children = (
+				7A27ECEE1FD4F94F0061E3AA /* LaunchScreen.xib */,
+				7A4E81111FD4AFEB00C815BD /* Main.storyboard */,
 				7A27ECCC1FD4BD190061E3AA /* Generated */,
 				7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */,
 				7A4E810F1FD4AFEA00C815BD /* ProfilesViewController.swift */,
 				7A27ECEA1FD4EF2E0061E3AA /* Resources */,
-				7A4E81191FD4AFEB00C815BD /* Info.plist */,
 				7A4E811F1FD4B34000C815BD /* Profile.swift */,
 				7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */,
 				7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */,
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
-				INFOPLIST_FILE = "RW-SwiftGen-SocialProfiles/Info.plist";
+				INFOPLIST_FILE = "RW-SwiftGen-SocialProfiles/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SwiftGenSocialProfiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
-				INFOPLIST_FILE = "RW-SwiftGen-SocialProfiles/Info.plist";
+				INFOPLIST_FILE = "RW-SwiftGen-SocialProfiles/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SwiftGenSocialProfiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
