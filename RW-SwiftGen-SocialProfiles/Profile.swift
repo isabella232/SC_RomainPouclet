@@ -34,7 +34,7 @@ struct Profile {
   /// The Name of the Social Network
   let name: String
 
-  /// A quick explaination of why you'd use thie social network
+  /// A quick explanation of why you'd use this social network
   let content: String
 
   /// The URL to the profile on this Social Network

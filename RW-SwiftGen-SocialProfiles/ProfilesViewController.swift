@@ -91,6 +91,18 @@ class ProfilesViewController: UITableViewController {
     tableView.rowHeight = 60
   }
 
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    super.prepare(for: segue, sender: sender)
+
+    if let detail = segue.destination as? ProfileViewController {
+      detail.profile = selectedProfile
+    }
+  }
+}
+
+// MARK: - UITableViewDataSource
+
+extension ProfilesViewController {
   override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
     return profiles.count
   }
@@ -103,19 +115,15 @@ class ProfilesViewController: UITableViewController {
 
     return cell
   }
+}
 
+// MARK: - UITableViewDelegate
+
+extension ProfilesViewController {
   override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {
     guard indexPath.row < profiles.count else { fatalError("Invalid index path \(indexPath)") }
     selectedProfile = profiles[indexPath.row]
 
     perform(segue: StoryboardSegue.Main.profileDetail)
-  }
-
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    super.prepare(for: segue, sender: sender)
-
-    if let detail = segue.destination as? ProfileViewController {
-      detail.profile = selectedProfile
-    }
   }
 }
