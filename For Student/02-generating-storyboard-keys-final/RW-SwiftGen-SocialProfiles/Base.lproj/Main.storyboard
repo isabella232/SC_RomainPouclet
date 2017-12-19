@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rZ9-4x-s03">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -77,19 +77,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-AZ-blb">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="667"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dgH-El-hOb">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="207.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="222.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I like this social network because of reasons." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h19-mv-czj">
-                                        <rect key="frame" x="0.0" y="207.5" width="375" height="208"/>
+                                        <rect key="frame" x="0.0" y="222.5" width="0.0" height="222"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dg7-Tb-cN1">
-                                        <rect key="frame" x="0.0" y="415.5" width="375" height="207.5"/>
+                                        <rect key="frame" x="0.0" y="444.5" width="0.0" height="222.5"/>
                                         <state key="normal" title="Visit this profile"/>
                                         <connections>
                                             <action selector="promptToVisit:" destination="5V9-ol-kMi" eventType="touchUpInside" id="mUs-QQ-60x"/>
@@ -116,24 +116,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0Y-hw-u3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1041" y="537"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zuc-dn-EXF">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rZ9-4x-s03" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fge-UY-dJl">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="UE4-cV-cKY" kind="relationship" relationship="rootViewController" id="oSN-9H-UCf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DB7-pp-ne3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-927" y="537"/>
         </scene>
     </scenes>
 </document>

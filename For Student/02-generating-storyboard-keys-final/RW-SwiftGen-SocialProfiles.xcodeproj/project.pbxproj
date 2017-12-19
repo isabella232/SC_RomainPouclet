@@ -19,6 +19,8 @@
 		7A27ECE81FD4EEDC0061E3AA /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A27ECDE1FD4EEDC0061E3AA /* Lato-Light.ttf */; };
 		7A27ECE91FD4EEDC0061E3AA /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A27ECDF1FD4EEDC0061E3AA /* Lato-BoldItalic.ttf */; };
 		7A27ECEF1FD4F94F0061E3AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A27ECEE1FD4F94F0061E3AA /* LaunchScreen.xib */; };
+		7A33505C1FE8B814008CD80C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7A33505A1FE8B814008CD80C /* .gitkeep */; };
+		7A33505D1FE8B814008CD80C /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A33505B1FE8B814008CD80C /* Storyboards.swift */; };
 		7A4E810E1FD4AFEA00C815BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */; };
 		7A4E81101FD4AFEA00C815BD /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E810F1FD4AFEA00C815BD /* ProfilesViewController.swift */; };
 		7A4E81131FD4AFEB00C815BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E81111FD4AFEB00C815BD /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		7A27ECDE1FD4EEDC0061E3AA /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		7A27ECDF1FD4EEDC0061E3AA /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
 		7A27ECEE1FD4F94F0061E3AA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7A33505A1FE8B814008CD80C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		7A33505B1FE8B814008CD80C /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		7A4E810A1FD4AFEA00C815BD /* RW-SwiftGen-SocialProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RW-SwiftGen-SocialProfiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A4E810F1FD4AFEA00C815BD /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		7A3350591FE8B814008CD80C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7A33505A1FE8B814008CD80C /* .gitkeep */,
+				7A33505B1FE8B814008CD80C /* Storyboards.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		7A4E81011FD4AFEA00C815BD = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 		7A4E810C1FD4AFEA00C815BD /* RW-SwiftGen-SocialProfiles */ = {
 			isa = PBXGroup;
 			children = (
+				7A3350591FE8B814008CD80C /* Generated */,
 				7A27ECEE1FD4F94F0061E3AA /* LaunchScreen.xib */,
 				7A4E81111FD4AFEB00C815BD /* Main.storyboard */,
 				7A4E810D1FD4AFEA00C815BD /* AppDelegate.swift */,
@@ -220,6 +234,7 @@
 				7A27ECE51FD4EEDC0061E3AA /* Lato-Hairline.ttf in Resources */,
 				7A27ECEF1FD4F94F0061E3AA /* LaunchScreen.xib in Resources */,
 				7A4E81151FD4AFEB00C815BD /* Assets.xcassets in Resources */,
+				7A33505C1FE8B814008CD80C /* .gitkeep in Resources */,
 				7A27ECE31FD4EEDC0061E3AA /* Lato-Italic.ttf in Resources */,
 				7A4E81131FD4AFEB00C815BD /* Main.storyboard in Resources */,
 			);
@@ -283,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A33505D1FE8B814008CD80C /* Storyboards.swift in Sources */,
 				7A4E81101FD4AFEA00C815BD /* ProfilesViewController.swift in Sources */,
 				7A4E81261FD4B69B00C815BD /* SocialNetworkCell.swift in Sources */,
 				7A4E81201FD4B34000C815BD /* Profile.swift in Sources */,
