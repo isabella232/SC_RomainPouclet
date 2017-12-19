@@ -29,6 +29,7 @@
 		7A4E81221FD4B4A500C815BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */; };
 		7A4E81261FD4B69B00C815BD /* SocialNetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */; };
 		7A569C7C1FE9B26B001FB0F9 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A569C7B1FE9B26B001FB0F9 /* Assets.swift */; };
+		7A569C7E1FE9B722001FB0F9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A569C7D1FE9B721001FB0F9 /* Fonts.swift */; };
 		A86D6EF4466832D2988F7B75 /* Pods_RW_SwiftGen_SocialProfiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD39801CF365CEF06BE032C8 /* Pods_RW_SwiftGen_SocialProfiles.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCell.swift; sourceTree = "<group>"; };
 		7A569C7B1FE9B26B001FB0F9 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		7A569C7D1FE9B721001FB0F9 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		A6E2E21982FE918C767A5B4F /* Pods-RW-SwiftGen-SocialProfiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; sourceTree = "<group>"; };
 		AD39801CF365CEF06BE032C8 /* Pods_RW_SwiftGen_SocialProfiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RW_SwiftGen_SocialProfiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB90FD6E08241A060BF54B01 /* Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		7A3350591FE8B814008CD80C /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				7A569C7D1FE9B721001FB0F9 /* Fonts.swift */,
 				7A569C7B1FE9B26B001FB0F9 /* Assets.swift */,
 				7A33505A1FE8B814008CD80C /* .gitkeep */,
 				7A33505B1FE8B814008CD80C /* Storyboards.swift */,
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A569C7E1FE9B722001FB0F9 /* Fonts.swift in Sources */,
 				7A33505D1FE8B814008CD80C /* Storyboards.swift in Sources */,
 				7A569C7C1FE9B26B001FB0F9 /* Assets.swift in Sources */,
 				7A4E81101FD4AFEA00C815BD /* ProfilesViewController.swift in Sources */,

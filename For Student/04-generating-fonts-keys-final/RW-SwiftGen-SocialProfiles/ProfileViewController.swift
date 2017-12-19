@@ -51,7 +51,12 @@ final class ProfileViewController: UIViewController {
     iconContainer.image = profile.icon
 
     /// Use the proper font using Swiftgen's generated list of font
-    let prettyContent = NSMutableAttributedString(string: profile.content)
+    let prettyContent = NSMutableAttributedString(string: profile.content, attributes: [.font: FontFamily.Lato.regular.font(size: 14)])
+    let range = (profile.content as NSString).range(of: profile.name)
+    if range.location != NSNotFound {
+        prettyContent.addAttribute(.font, value: FontFamily.Lato.boldItalic.font(size: 14), range: range)
+    }
+
     contentContainer.attributedText = prettyContent
   }
 
