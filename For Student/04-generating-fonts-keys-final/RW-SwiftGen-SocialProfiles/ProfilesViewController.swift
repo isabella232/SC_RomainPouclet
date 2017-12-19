@@ -41,7 +41,7 @@ class ProfilesViewController: UITableViewController {
             content: "Instagram is great because it's a simple social network to share my photos.",
             url: URL(string: "https://instagram.com/palleas")!,
             icon: Asset.socialNetworkInstagram.image,
-            tint: UIColor(named: "instagramColor")!
+            tint: Asset.instagramColor.color
         ),
 
         Profile(
@@ -49,14 +49,14 @@ class ProfilesViewController: UITableViewController {
             content: "I love Pinterest because you can always find ideas.",
             url: URL(string: "https://pinterest.com/palleas")!,
             icon: Asset.socialNetworkPinterest.image,
-            tint: UIColor(named: "pinterestColor")!
+            tint: Asset.pinterestColor.color
         ),
         Profile(
             name: "Snapchat",
             content: "I use snapchat sometimes to send funny videos to my friends.",
             url: URL(string: "https://snapchat.com/palleas")!,
             icon: Asset.socialNetworkSnapchat.image,
-            tint: UIColor(named: "snapchatColor")!
+            tint: Asset.snapchatColor.color
         ),
 
         Profile(
@@ -64,7 +64,7 @@ class ProfilesViewController: UITableViewController {
             content: "Reddit has a lot of interesting content about every topic imaginable.",
             url: URL(string: "https://reddit.com/palleas")!,
             icon: Asset.socialNetworkReddit.image,
-            tint: UIColor(named: "redditColor")!
+            tint: Asset.redditColor.color
         ),
 
         Profile(
@@ -72,7 +72,7 @@ class ProfilesViewController: UITableViewController {
             content: "I met some of the most inspiring people on Twitter.",
             url: URL(string: "https://twitter.com/palleas")!,
             icon: Asset.socialNetworkTwitter.image,
-            tint: UIColor(named: "twitterColor")!
+            tint: Asset.twitterColor.color
         ),
 
         Profile(
@@ -80,10 +80,9 @@ class ProfilesViewController: UITableViewController {
             content: "Youtube makes it easy to share and discover video content.",
             url: URL(string: "https://youtube.com/palleas")!,
             icon: Asset.socialNetworkYoutube.image,
-            tint: UIColor(named: "youtubeColor")!
+            tint: Asset.youtubeColor.color
         ),
         ]
-
   override func viewDidLoad() {
     super.viewDidLoad()
 
