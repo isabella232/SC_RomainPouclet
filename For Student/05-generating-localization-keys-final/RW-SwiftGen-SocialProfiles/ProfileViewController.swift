@@ -61,7 +61,27 @@ final class ProfileViewController: UIViewController {
   }
 
   @IBAction func promptToVisit(_: Any) {
-    guard let _ = profile else { return }
+    guard let profile = profile else { return }
+
+    let alert = UIAlertController(
+        title: L10n.profileConfirmTitle,
+        message: L10n.profileConfirmMessage(profile.name),
+        preferredStyle: .alert
+    )
+
+    alert.addAction(UIAlertAction(
+        title: L10n.profileConfirmCancel,
+        style: .cancel) { [weak self] _ in
+            self?.dismiss(animated: true, completion: nil)
+    })
+
+    alert.addAction(UIAlertAction(
+        title: L10n.profileConfirmOk,
+        style: .default) { [weak self] _ in
+            self?.visit(profile.url)
+    })
+
+    present(alert, animated: true, completion: nil)
   }
 
   func visit(_ url: URL) {
