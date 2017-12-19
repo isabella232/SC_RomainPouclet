@@ -26,6 +26,7 @@
 		7A4E81201FD4B34000C815BD /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E811F1FD4B34000C815BD /* Profile.swift */; };
 		7A4E81221FD4B4A500C815BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */; };
 		7A4E81261FD4B69B00C815BD /* SocialNetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */; };
+		A86D6EF4466832D2988F7B75 /* Pods_RW_SwiftGen_SocialProfiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD39801CF365CEF06BE032C8 /* Pods_RW_SwiftGen_SocialProfiles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,9 @@
 		7A4E811F1FD4B34000C815BD /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7A4E81211FD4B4A500C815BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7A4E81251FD4B69B00C815BD /* SocialNetworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkCell.swift; sourceTree = "<group>"; };
+		A6E2E21982FE918C767A5B4F /* Pods-RW-SwiftGen-SocialProfiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.release.xcconfig"; sourceTree = "<group>"; };
+		AD39801CF365CEF06BE032C8 /* Pods_RW_SwiftGen_SocialProfiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RW_SwiftGen_SocialProfiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90FD6E08241A060BF54B01 /* Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86D6EF4466832D2988F7B75 /* Pods_RW_SwiftGen_SocialProfiles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +101,8 @@
 			children = (
 				7A4E810C1FD4AFEA00C815BD /* RW-SwiftGen-SocialProfiles */,
 				7A4E810B1FD4AFEA00C815BD /* Products */,
+				B4616BD5762B2C468063135C /* Pods */,
+				A97A96999C2F5B88838C074D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +129,23 @@
 			path = "RW-SwiftGen-SocialProfiles";
 			sourceTree = "<group>";
 		};
+		A97A96999C2F5B88838C074D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD39801CF365CEF06BE032C8 /* Pods_RW_SwiftGen_SocialProfiles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4616BD5762B2C468063135C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FD6E08241A060BF54B01 /* Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig */,
+				A6E2E21982FE918C767A5B4F /* Pods-RW-SwiftGen-SocialProfiles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A4E811C1FD4AFEB00C815BD /* Build configuration list for PBXNativeTarget "RW-SwiftGen-SocialProfiles" */;
 			buildPhases = (
+				072795FE1E13D6AB1EEAB081 /* [CP] Check Pods Manifest.lock */,
 				7A4E81061FD4AFEA00C815BD /* Sources */,
 				7A4E81071FD4AFEA00C815BD /* Frameworks */,
 				7A4E81081FD4AFEA00C815BD /* Resources */,
+				2B2276BE6307899B58EDD169 /* [CP] Embed Pods Frameworks */,
+				E04681DA0A28C3033136ABA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +226,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		072795FE1E13D6AB1EEAB081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RW-SwiftGen-SocialProfiles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B2276BE6307899B58EDD169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04681DA0A28C3033136ABA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A4E81061FD4AFEA00C815BD /* Sources */ = {
@@ -336,6 +414,7 @@
 		};
 		7A4E811D1FD4AFEB00C815BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB90FD6E08241A060BF54B01 /* Pods-RW-SwiftGen-SocialProfiles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +430,7 @@
 		};
 		7A4E811E1FD4AFEB00C815BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E2E21982FE918C767A5B4F /* Pods-RW-SwiftGen-SocialProfiles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
