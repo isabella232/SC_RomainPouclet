@@ -122,5 +122,7 @@ extension ProfilesViewController {
   override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {
     guard indexPath.row < profiles.count else { fatalError("Invalid index path \(indexPath)") }
     selectedProfile = profiles[indexPath.row]
+
+    performSegue(withIdentifier: "ProfileDetail", sender: self)
   }
 }
