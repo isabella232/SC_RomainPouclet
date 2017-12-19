@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+
+target 'RW-SwiftGen-SocialProfiles' do
+  use_frameworks!
+
+  pod 'SwiftGen'
+end
