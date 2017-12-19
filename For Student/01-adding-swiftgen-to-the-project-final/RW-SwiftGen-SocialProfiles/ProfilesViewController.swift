@@ -35,7 +35,54 @@ class ProfilesViewController: UITableViewController {
   /// Defines the different profiles
   /// Using swiftgen's generated code for
   /// Icon and tint color
-  let profiles = [Profile]()
+    let profiles: [Profile] = [
+        Profile(
+            name: "Instagram",
+            content: "Instagram is great because it's a simple social network to share my photos.",
+            url: URL(string: "https://instagram.com/palleas")!,
+            icon: UIImage(named: "socialNetworkInstagram")!,
+            tint: UIColor(named: "instagramColor")!
+        ),
+
+        Profile(
+            name: "Pinterest",
+            content: "I love Pinterest because you can always find ideas.",
+            url: URL(string: "https://pinterest.com/palleas")!,
+            icon: UIImage(named: "socialNetworkPinterest")!,
+            tint: UIColor(named: "pinterestColor")!
+        ),
+        Profile(
+            name: "Snapchat",
+            content: "I use snapchat sometimes to send funny videos to my friends.",
+            url: URL(string: "https://snapchat.com/palleas")!,
+            icon: UIImage(named: "socialNetworkSnapchat")!,
+            tint: UIColor(named: "snapchatColor")!
+        ),
+
+        Profile(
+            name: "Reddit",
+            content: "Reddit has a lot of interesting content about every topic imaginable.",
+            url: URL(string: "https://reddit.com/palleas")!,
+            icon: UIImage(named: "socialNetworkReddit")!,
+            tint: UIColor(named: "redditColor")!
+        ),
+
+        Profile(
+            name: "Twitter",
+            content: "I met some of the most inspiring people on Twitter.",
+            url: URL(string: "https://twitter.com/palleas")!,
+            icon: UIImage(named: "socialNetworkTwitter")!,
+            tint: UIColor(named: "twitterColor")!
+        ),
+
+        Profile(
+            name: "Youtube",
+            content: "Youtube makes it easy to share and discover video content.",
+            url: URL(string: "https://youtube.com/palleas")!,
+            icon: UIImage(named: "socialNetworkYoutube")!,
+            tint: UIColor(named: "youtubeColor")!
+        ),
+        ]
 
   override func viewDidLoad() {
     super.viewDidLoad()
