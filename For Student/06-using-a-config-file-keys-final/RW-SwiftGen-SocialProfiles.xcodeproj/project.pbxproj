@@ -176,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A4E811C1FD4AFEB00C815BD /* Build configuration list for PBXNativeTarget "RW-SwiftGen-SocialProfiles" */;
 			buildPhases = (
+				7ADE567E1FE9E993003ECF22 /* Invoke Swiftgen */,
 				072795FE1E13D6AB1EEAB081 /* [CP] Check Pods Manifest.lock */,
 				7A4E81061FD4AFEA00C815BD /* Sources */,
 				7A4E81071FD4AFEA00C815BD /* Frameworks */,
@@ -284,6 +285,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RW-SwiftGen-SocialProfiles/Pods-RW-SwiftGen-SocialProfiles-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7ADE567E1FE9E993003ECF22 /* Invoke Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Invoke Swiftgen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/SwiftGen/bin/swiftgen\"\n";
 		};
 		E04681DA0A28C3033136ABA3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
