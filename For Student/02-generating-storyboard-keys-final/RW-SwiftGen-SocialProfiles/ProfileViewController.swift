@@ -50,9 +50,13 @@ final class ProfileViewController: UIViewController {
     title = profile.name
     iconContainer.image = profile.icon
 
-    /// Use the proper font using Swiftgen's generated list of font
-    let prettyContent = NSMutableAttributedString(string: profile.content)
-    contentContainer.attributedText = prettyContent
+    let regularFont = UIFont(name: "Lato-Regular", size: 14)!
+    let italicFont = UIFont(name: "Lato-BoldItalic", size: 14)!
+    let prettyContent = NSMutableAttributedString(string: profile.content, attributes: [.font: regularFont])
+    let range = (profile.content as NSString).range(of: profile.name)
+    if range.location != NSNotFound {
+        prettyContent.addAttribute(.font, value: italicFont, range: range)
+    }
   }
 
   @IBAction func promptToVisit(_: Any) {
