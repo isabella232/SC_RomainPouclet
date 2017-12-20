@@ -57,10 +57,32 @@ final class ProfileViewController: UIViewController {
     if range.location != NSNotFound {
         prettyContent.addAttribute(.font, value: italicFont, range: range)
     }
+
+    self.contentContainer.attributedText = prettyContent
   }
 
   @IBAction func promptToVisit(_: Any) {
-    guard let _ = profile else { return }
+    guard let profile = profile else { return }
+
+    let alert = UIAlertController(
+        title: NSLocalizedString("profile_confirm_title", comment: ""),
+        message: String(format: NSLocalizedString("profile_confirm_message", comment: ""), profile.name),
+        preferredStyle: .alert
+    )
+
+    alert.addAction(UIAlertAction(
+        title: NSLocalizedString("profile_confirm_cancel", comment: ""),
+        style: .cancel) { [weak self] _ in
+            self?.dismiss(animated: true, completion: nil)
+    })
+
+    alert.addAction(UIAlertAction(
+        title: NSLocalizedString("profile_confirm_ok", comment: ""),
+        style: .default) { [weak self] _ in
+            self?.visit(profile.url)
+    })
+
+    present(alert, animated: true, completion: nil)
   }
 
   func visit(_ url: URL) {
