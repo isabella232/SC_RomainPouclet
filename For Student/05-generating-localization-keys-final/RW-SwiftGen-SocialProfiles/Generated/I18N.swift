@@ -5,7 +5,7 @@ import Foundation
 // swiftlint:disable superfluous_disable_command
 // swiftlint:disable file_length
 
-// swiftlint:disable explicit_type_interface identifier_name line_length nesting type_body_length type_name
+// swiftlint:disable identifier_name line_length type_body_length
 enum L10n {
   /// My Social Networks Profiles
   static let applicationTitle = L10n.tr("Localizable", "application_title")
@@ -20,7 +20,7 @@ enum L10n {
   /// Open Profile?
   static let profileConfirmTitle = L10n.tr("Localizable", "profile_confirm_title")
 }
-// swiftlint:enable explicit_type_interface identifier_name line_length nesting type_body_length type_name
+// swiftlint:enable identifier_name line_length type_body_length
 
 extension L10n {
   private static func tr(_ table: String, _ key: String, _ args: CVarArg...) -> String {
