@@ -63,19 +63,19 @@ final class ProfileViewController: UIViewController {
     guard let profile = profile else { return }
 
     let alert = UIAlertController(
-        title: NSLocalizedString("profile_confirm_title", comment: ""),
-        message: String(format: NSLocalizedString("profile_confirm_message", comment: ""), profile.name),
+        title: NSLocalizedString("profile.confirm.title", comment: ""),
+        message: String(format: NSLocalizedString("profile.confirm.message", comment: ""), profile.name),
         preferredStyle: .alert
     )
 
     alert.addAction(UIAlertAction(
-        title: NSLocalizedString("profile_confirm_cancel", comment: ""),
+        title: NSLocalizedString("profile.confirm.cancel", comment: ""),
         style: .cancel) { [weak self] _ in
             self?.dismiss(animated: true, completion: nil)
     })
 
     alert.addAction(UIAlertAction(
-        title: NSLocalizedString("profile_confirm_ok", comment: ""),
+        title: NSLocalizedString("profile.confirm.ok", comment: ""),
         style: .default) { [weak self] _ in
             self?.visit(profile.url)
     })

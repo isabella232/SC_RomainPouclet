@@ -10,15 +10,15 @@ enum L10n {
   /// My Social Networks Profiles
   static let applicationTitle = L10n.tr("Localizable", "application_title")
   /// Cancel
-  static let profileConfirmCancel = L10n.tr("Localizable", "profile_confirm_cancel")
+  static let profileConfirmCancel = L10n.tr("Localizable", "profile.confirm.cancel")
   /// Are you sure you want to visit %@? This will open a browser.
   static func profileConfirmMessage(_ p1: String) -> String {
-    return L10n.tr("Localizable", "profile_confirm_message", p1)
+    return L10n.tr("Localizable", "profile.confirm.message", p1)
   }
   /// Let's Go!
-  static let profileConfirmOk = L10n.tr("Localizable", "profile_confirm_ok")
+  static let profileConfirmOk = L10n.tr("Localizable", "profile.confirm.ok")
   /// Open Profile?
-  static let profileConfirmTitle = L10n.tr("Localizable", "profile_confirm_title")
+  static let profileConfirmTitle = L10n.tr("Localizable", "profile.confirm.title")
 }
 // swiftlint:enable explicit_type_interface identifier_name line_length nesting type_body_length type_name
 
