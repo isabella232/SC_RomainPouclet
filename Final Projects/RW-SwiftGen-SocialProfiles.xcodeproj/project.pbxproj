@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Pods/SwiftGen/bin/swiftgen\n";
+			shellScript = "\"${SRCROOT}/Pods/SwiftGen/bin/swiftgen\"\n";
 		};
 		B76E3D970508D47194B14565 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
