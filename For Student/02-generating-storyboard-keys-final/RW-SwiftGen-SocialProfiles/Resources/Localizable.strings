@@ -1,6 +1,6 @@
-"profile_confirm_title" = "Open Profile?";
-"profile_confirm_message" = "Are you sure you want to visit %@? This will open a browser.";
-"profile_confirm_ok" = "Let's Go!";
-"profile_confirm_cancel" = "Cancel";
+"profile.confirm.title" = "Open Profile?";
+"profile.confirm.message" = "Are you sure you want to visit %@? This will open a browser.";
+"profile.confirm.ok" = "Let's Go!";
+"profile.confirm.cancel" = "Cancel";
 
-"application_title" = "My Social Networks Profiles";
+"application.title" = "My Social Networks Profiles";
