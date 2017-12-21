@@ -64,19 +64,19 @@ final class ProfileViewController: UIViewController {
     guard let profile = profile else { return }
 
     let alert = UIAlertController(
-        title: L10n.profileConfirmTitle,
-        message: L10n.profileConfirmMessage(profile.name),
+        title: L10n.Profile.Confirm.title,
+        message: L10n.Profile.Confirm.message(profile.name),
         preferredStyle: .alert
     )
 
     alert.addAction(UIAlertAction(
-        title: L10n.profileConfirmCancel,
+        title: L10n.Profile.Confirm.cancel,
         style: .cancel) { [weak self] _ in
             self?.dismiss(animated: true, completion: nil)
     })
 
     alert.addAction(UIAlertAction(
-        title: L10n.profileConfirmOk,
+        title: L10n.Profile.Confirm.ok,
         style: .default) { [weak self] _ in
             self?.visit(profile.url)
     })
