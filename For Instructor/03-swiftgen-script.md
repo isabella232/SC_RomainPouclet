@@ -1,4 +1,19 @@
-## Generating assets keys
+# Generating assets keys
+
+## Screencast Title
+Type-Safe Resources with SwiftGen: generating assets keys
+
+## Screencast Description
+
+## Language, Editor and Platform versions used in this screencast:
+
+* Language: Swift 4
+* Platform: iOS 11
+* Editor: Xcode 9
+
+## Introduction
+
+## Talking head
 
 [TODO Romain: Each screencast must be independent. Don't assume the viewer has watched the previous screencast. Instead just assume they have the prerequisite knowledge (which may have come from watching the screencast, or may be something they learned on their own). So avoid saying "previous video", and instead give an introduction that explains where you're coming from even if they haven't watched the previous video. Also the video needs a proper Talking Head introduction before the demo.]
 
@@ -78,3 +93,5 @@ From now on, we know that if the app compiles properly, it means that the assets
 [TODO Romain: Looks like you have another vidoe here - again split it out into its own script, make a proper introduction and conclusion for it. I'll stop reviewing here until next revisions. Thanks!]
 
 In the next section, we’ll see how SwiftGen deals with fonts.
+
+## Conclusion

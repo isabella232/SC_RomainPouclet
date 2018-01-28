@@ -1,4 +1,22 @@
-## Generating localization
+# Generating localization
+
+## Screencast Title
+
+Type-Safe Resources with SwiftGen: generating localization keys
+
+## Screencast Description
+
+## Language, Editor and Platform versions used in this screencast:
+
+* Language: Swift 4
+* Platform: iOS 11
+* Editor: Xcode 9
+
+## Introduction
+
+
+## Talking head
+
 Congratulations on making it this far! Your application is now working well and a lot of people are curious about your favourite social network. There is only one problem: they don’t all speak English!
 
 Localization is a very complex topic and the complexity increases when you add new localizations.
@@ -78,3 +96,5 @@ Once again, using the flat or structured template is a matter of choice for you 
 That’s it for this course, one key thing to remember is that relying on the string keys is a recipe for disaster and SwiftGen makes it really easy to write a cleaner code, where you now exactly which (and what type of!) placeholders are expected.
 
 In the next section, we’ll wrap up and see how we can setup the project so we don’t have to remember to run SwiftGen every time you or someone from your team changes something in your project’s ressources.
+
+## Conclusion

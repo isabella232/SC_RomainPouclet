@@ -1,4 +1,21 @@
-## Using a config file keys
+# Using a config file keys
+
+## Screencast Title
+
+Type-Safe Resources with SwiftGen: using a config file keys
+
+## Screencast Description
+
+## Language, Editor and Platform versions used in this screencast:
+
+* Language: Swift 4
+* Platform: iOS 11
+* Editor: Xcode 9
+
+## Introduction
+
+## Talking head
+
 Hi there - in this video we cover everything we’ve seen before and finalize our SwiftGen Setup.
 
 If you remember correctly, we started by setting up SwiftGen in our project. There are several ways to do that, but in a project that already uses CocoaPods as its dependency manager of choice, it makes sure the tool will be available when the pods will be installed.
@@ -79,4 +96,5 @@ This was due to the fact that when swiftgen is ran manually in your terminal, it
 We could have prevented this warning by manually passing the name of the module to the `swiftgen` command line. This would have been cumbersome and useless: by invoking swiftgen directly from an xcodebuild, swiftgen knows the module you’re currently building and won’t include this import statement.
 
 ## Conclusion
+
 I hope this video helped you realize how a took like SwiftGen can make your code clearer, safer and easier to understand.

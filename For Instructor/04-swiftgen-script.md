@@ -1,4 +1,22 @@
-## Generating fonts keys
+# Generating fonts keys
+
+## Screencast Title
+
+Type-Safe Resources with SwiftGen: generating fonts keys
+
+## Screencast Description
+
+## Language, Editor and Platform versions used in this screencast:
+
+* Language: Swift 4
+* Platform: iOS 11
+* Editor: Xcode 9
+
+## Introduction
+
+
+## Talking head
+
 Hello there - In this course we are going to generate code to deal with custom fonts in your application.
 
 Dealing with custom fonts has always been quite frustrating for iOS developer: adding them to the project is confusing, sometimes you’re not using the right font name because it differs from the name of the file, etc..
@@ -53,3 +71,5 @@ As an exercise, you can try to play with the other fonts!
 That’s it for this section of the course. SwiftGen is now providing us with a type-safe way - and, let’s be honest, a very pretty API - to deal with the fonts contained in our application.
 
 In the next section, we’ll cover and conclude how to use SwiftGen to deal with Localization!
+
+## Conclusion
