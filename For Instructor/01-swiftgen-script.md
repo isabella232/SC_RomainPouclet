@@ -14,7 +14,7 @@ Type-Safe Resources with SwiftGen: Getting Started
 ## Introduction
 Hey what's up everybody, this is Romain.
 
-Do you remember what life was like before Swift, and it's excellent type safety? I do - I still remember having waking up late at night worried that despite my careful coding, maybe I made a mistake somewhere that would result in a runtime error.
+Do you remember what life was like before Swift, and its excellent type safety? I do - I still remember having waking up late at night worried that despite my careful coding, maybe I made a mistake somewhere that would result in a runtime error.
 
 Well, I can rest much easier now, thanks to Swift's type safety. Now when you compile your code, you are close to certain that it’s going to work.
 
