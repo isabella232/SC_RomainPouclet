@@ -104,6 +104,6 @@ Run `Pods/swiftgen/bin/swiftgen --help`
 
 As you can see, SwiftGen can help you remove the uncertainty with a lot of things: storyboards, assets, fonts, and localization keys.
 
-We'll use them all, starting with the storyboards.
+## Talking Head - Conclusion
 
-## Conclusion
+Congratulations on setting up Assets, a whole world of safer Swift just opened to you. 
