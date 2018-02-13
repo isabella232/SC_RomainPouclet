@@ -15,10 +15,6 @@ Type-Safe Resources with SwiftGen: generating assets keys
 
 ## Talking head
 
-[TODO Romain: Each screencast must be independent. Don't assume the viewer has watched the previous screencast. Instead just assume they have the prerequisite knowledge (which may have come from watching the screencast, or may be something they learned on their own). So avoid saying "previous video", and instead give an introduction that explains where you're coming from even if they haven't watched the previous video. Also the video needs a proper Talking Head introduction before the demo.]
-
-Hi there! In the previous video, we added SwiftGen to the sample application and we got a type-safe way to dealing with Storyboards, instead of relying on string identifiers.
-
 Hey what's up everybody? This is Romain!
 
 I don't know about know, but I really feel that Swift's type safety is our best **asset**. Yet, we keep on relying on strings to write most of our apps.

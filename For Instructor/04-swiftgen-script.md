@@ -12,16 +12,16 @@ Type-Safe Resources with SwiftGen: generating fonts keys
 * Platform: iOS 11
 * Editor: Xcode 9
 
-## Introduction
+## Introduction - Talking head
 
+Hi everybody, it's Romain! I don't know about you but I'm really **font** of Swift **type**system. Yet, we keep dealing
+with custom fonts with these stranges string-based API.
 
-## Talking head
+Custom fonts has always been quite frustrating for iOS developer: adding them to the project is confusing, sometimes they're not available at runtime... and soemtimes it's not using the right font because it differs from the name of the file!
 
-Hello there - In this course we are going to generate code to deal with custom fonts in your application.
+The good news is: fonts don’t change often.
 
-Dealing with custom fonts has always been quite frustrating for iOS developer: adding them to the project is confusing, sometimes you’re not using the right font name because it differs from the name of the file, etc..
-
-Fonts don’t change often. The designer who created your app will rarely come to you saying “I changed some parts of the font to make the ligatures more ligatury, you’ll find the new fonts in the shared drive”.
+Your designer will rarely come to you saying “I changed some parts of the font to make the ligatures more ligatury, you’ll find the new fonts in the shared drive”.
 
 It’s usually a one-time thing, until the customer wants a different font and you have to adjust everything. For that reason, even if you don’t decide to rely on SwiftGen, you should have some kind of Stylesheet class that contains at least the style for your titles, your buttons, etc..
 
@@ -66,10 +66,10 @@ if range.location != NSNotFound {
 }
 ```
 
-As an exercise, you can try to play with the other fonts!
+## Talking head - conclusion
 
 That’s it for this section of the course. SwiftGen is now providing us with a type-safe way - and, let’s be honest, a very pretty API - to deal with the fonts contained in our application.
 
-In the next section, we’ll cover and conclude how to use SwiftGen to deal with Localization!
+As an exercise, you can try to play with the other fonts!
 
-## Conclusion
+In the next section of this **serif**, we’ll cover and conclude how to use SwiftGen to deal with Localization!
