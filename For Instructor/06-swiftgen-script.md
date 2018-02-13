@@ -12,13 +12,12 @@ Type-Safe Resources with SwiftGen: using a config file keys
 * Platform: iOS 11
 * Editor: Xcode 9
 
-## Introduction
+## Introduction - Talking head
 
-## Talking head
+Hey what's up everybody! If you're a developer and like it when things are clean and organized, you'll
+enjoy this video about Swiftgen and config files!
 
-Hi there - in this video we cover everything we’ve seen before and finalize our SwiftGen Setup.
-
-If you remember correctly, we started by setting up SwiftGen in our project. There are several ways to do that, but in a project that already uses CocoaPods as its dependency manager of choice, it makes sure the tool will be available when the pods will be installed.
+There are several ways to do that, but in a project that already uses CocoaPods as its dependency manager of choice, it makes sure the tool will be available when the pods will be installed.
 
 The first thing we used SwiftGen for was storyboards. Instead of relying on string identifiers for segues and scenes, we had SwiftGen analyze our storyboard and generate code that abstracts the complexity away.
 

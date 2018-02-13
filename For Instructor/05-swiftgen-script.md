@@ -12,14 +12,14 @@ Type-Safe Resources with SwiftGen: generating localization keys
 * Platform: iOS 11
 * Editor: Xcode 9
 
-## Introduction
+## Introduction - Talking head
 
-
-## Talking head
-
-Congratulations on making it this far! Your application is now working well and a lot of people are curious about your favourite social network. There is only one problem: they don’t all speak English!
+Bonjour, C'est Romain! Is your application supporting multiple languages?
 
 Localization is a very complex topic and the complexity increases when you add new localizations.
+
+In fact, the word itself is so complex, it's actually written L10N because people don't know where to
+put the z!
 
 For that reason, there are a couple of things you need to think about.
 
@@ -30,6 +30,11 @@ Plus, you need to use a tool that you can trust. Just like all the previous exam
 There have been several attempts at preventing this kind of issues: command line tools, 3rd party services, and even Xcode extensions.
 
 Let’s see how to use SwiftGen to generate code based on your localization strings.
+
+##
+
+Here is a small project that's only available in english for now. As people really care about our social networks,
+we'll soon add new languages.
 
 (In Xcode)
 
@@ -93,8 +98,10 @@ alert.addAction(UIAlertAction(
 
 Once again, using the flat or structured template is a matter of choice for you and your team. I do feel the structured template is better, especially in an application with many localization keys.
 
-That’s it for this course, one key thing to remember is that relying on the string keys is a recipe for disaster and SwiftGen makes it really easy to write a cleaner code, where you now exactly which (and what type of!) placeholders are expected.
+## Conclusion
+
+That’s it for this course, one key thing to remember is that relying on the string keys is a recipe for disaster.
+
+SwiftGen makes it really easy to write a cleaner code, where you now exactly which (and what type of!) placeholders are expected.
 
 In the next section, we’ll wrap up and see how we can setup the project so we don’t have to remember to run SwiftGen every time you or someone from your team changes something in your project’s ressources.
-
-## Conclusion

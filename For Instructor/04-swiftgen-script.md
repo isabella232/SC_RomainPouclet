@@ -29,6 +29,10 @@ So why are we advocating for using SwiftGen for fonts as well?
 
 It’s simple: the generated code will make your life easier, on top of no longer having to worry about the font name being invalid.
 
+##
+
+I have a project here that uses custom fonts.
+
 (In Xcode)
 
 If you open the Xcode project and look at the `fonts` folder, you’ll see we’ve embedded the Lato fonts, a font that I particularly like.
